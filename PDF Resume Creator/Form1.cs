@@ -3,6 +3,8 @@ using System.Windows.Forms;
 using System.IO;
 using Newtonsoft.Json;
 using Json.Net;
+using System.Text;
+using System.Text.Json;
 
 namespace PDF_Resume_Creator
 {
