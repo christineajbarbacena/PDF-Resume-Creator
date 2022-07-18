@@ -29,7 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.bttncnvrt = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // bttncnvrt
+            // 
+            this.bttncnvrt.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttncnvrt.Location = new System.Drawing.Point(12, 266);
+            this.bttncnvrt.Name = "bttncnvrt";
+            this.bttncnvrt.Size = new System.Drawing.Size(158, 34);
+            this.bttncnvrt.TabIndex = 0;
+            this.bttncnvrt.Text = "Convert";
+            this.bttncnvrt.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -38,6 +49,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(532, 312);
+            this.Controls.Add(this.bttncnvrt);
             this.Name = "Form1";
             this.Text = "PDFResume";
             this.ResumeLayout(false);
@@ -45,6 +57,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button bttncnvrt;
     }
 }
 
