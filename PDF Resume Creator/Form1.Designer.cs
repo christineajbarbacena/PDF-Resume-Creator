@@ -41,6 +41,7 @@
             this.bttncnvrt.TabIndex = 0;
             this.bttncnvrt.Text = "Convert";
             this.bttncnvrt.UseVisualStyleBackColor = true;
+            this.bttncnvrt.Click += new System.EventHandler(this.bttncnvrt_Click);
             // 
             // Form1
             // 
