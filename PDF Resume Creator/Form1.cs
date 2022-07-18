@@ -42,6 +42,17 @@ namespace PDF_Resume_Creator
             string Tertiary = inforesume.Tertiary;
             string Course = inforesume.Course;
             string TertiaryYears = inforesume.TertiaryYears;
+            string SeniorHighSchool = inforesume.SeniorHighSchool;
+            string Strand = inforesume.Strand;
+            string SHSAward = inforesume.SHSAward;
+            string SecondaryYears = inforesume.SecondaryYears;
+            string JuniorHighSchool = inforesume.JuniorHighSchool;
+            string JHSAward = inforesume.JHSAward;
+            string JuniorYears = inforesume.JuniorYears;
+
+            //Converting Awards
+            string Awards1 = inforesume.Awards1;
+            string Awards2 = inforesume.Awards2;
         }
     }
 }
