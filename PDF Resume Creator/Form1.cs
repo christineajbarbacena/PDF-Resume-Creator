@@ -8,6 +8,7 @@ using PdfSharp;
 using PdfSharp.Drawing;
 using PdfSharp.Pdf;
 using System.Text;
+using System.Drawing;
 
 
 namespace PDF_Resume_Creator
@@ -74,9 +75,28 @@ namespace PDF_Resume_Creator
 
                     XGraphics xGraphics = XGraphics.FromPdfPage(pdfpage);
 
+                    //Fonts
                     XFont Afont = new XFont("Opens Sans Light", 20, XFontStyle.Bold);
                     XFont Bfont = new XFont ("Arial", 14, XFontStyle.Regular);
-                    XFont Cfont = new XFont ("")
+                    XFont Cfont = new XFont("Opens Sans Light", 50, XFontStyle.Regular);
+
+                    XPen line = new XPen(XColors.White, 2);
+                    XPen nline = new XPen(XColors.White, 3);
+
+                    XPen xPen = new XPen(XColors.White, 20);
+
+                    //Background Design
+
+                    xGraphics.DrawRoundedRectangle(XBrushes.LightGray, 0, 0, pdfpage.Width.Point, pdfpage.Height.Point, 0, 0);
+                    xGraphics.DrawRectangle(xPen, 0, 0, pdfpage.Width.Point, pdfpage.Height.Point);
+
+
+
+
+
+
+
+
 
                 }
             }
