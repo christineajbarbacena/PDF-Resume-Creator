@@ -86,10 +86,15 @@ namespace PDF_Resume_Creator
                     XPen xPen = new XPen(XColors.White, 20);
 
                     //Background Design
-
                     xGraphics.DrawRoundedRectangle(XBrushes.LightGray, 0, 0, pdfpage.Width.Point, pdfpage.Height.Point, 0, 0);
                     xGraphics.DrawRectangle(xPen, 0, 0, pdfpage.Width.Point, pdfpage.Height.Point);
 
+                    //Margins
+                    int mleft = 50;
+                    int mdown = 200;
+
+                    //Picture
+                    string pic = (@"C: \Users\barbacena\Desktop\Programming\SHS Graduation Picture.png");
 
 
 
