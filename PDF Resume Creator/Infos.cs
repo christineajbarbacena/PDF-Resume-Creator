@@ -21,7 +21,6 @@ namespace PDF_Resume_Creator
         public string Region { get; set; }
 
         //skills and objectives
-        public string Objective { get; set; }
         public string Skill1 { get; set; }
         public string Skill2 { get; set; }
         public string Skill3 { get; set; }
