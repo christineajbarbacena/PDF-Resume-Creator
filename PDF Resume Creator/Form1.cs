@@ -76,9 +76,9 @@ namespace PDF_Resume_Creator
                     XGraphics xGraphics = XGraphics.FromPdfPage(pdfpage);
 
                     //Fonts
-                    XFont Afont = new XFont("Opens Sans Light", 20, XFontStyle.Bold);
-                    XFont Bfont = new XFont ("Arial", 14, XFontStyle.Regular);
-                    XFont Cfont = new XFont("Opens Sans Light", 50, XFontStyle.Regular);
+                    XFont namefont = new XFont("Opens Sans Light", 35, XFontStyle.Bold);
+                    XFont Bfont = new XFont ("Arial", 18, XFontStyle.Bold);
+                    XFont regularfont = new XFont("Arial", 14, XFontStyle.Regular);
 
                     XPen line = new XPen(XColors.White, 2);
                     XPen nline = new XPen(XColors.White, 3);
@@ -99,7 +99,26 @@ namespace PDF_Resume_Creator
                     XImage xImage = XImage.FromFile(pic);
                     xGraphics.DrawImage(xImage, mleft2, 50, 150, 150);
 
+                    string FirstName = inforesume.FirstName;
+                    string MiddleName = inforesume.MiddleName;
+                    string LastName = inforesume.LastName;
+                    string EmailAddress = inforesume.EmailAddress;
+                    string MobileNumber = inforesume.MobileNumber;
+                    string StreetName = inforesume.StreetName;
+                    string City = inforesume.City;
+                    string Province = inforesume.Province;
+                    string Region = inforesume.Region;
 
+                    //Name
+                    xGraphics.DrawString(FirstName + " " + MiddleName + "" + LastName, namefont, XBrushes.Black, new XRect(mleft1, mleft2 -100, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+
+                    //Basic Information
+                    xGraphics.DrawString("Basic Information", Bfont, XBrushes.Black, new XRect(mdown, mleft2 +20, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawRectangle(line, mdown, mleft2 + 45, 150, 1);
+                    xGraphics.DrawString(EmailAddress, regularfont, XBrushes.Black, new XRect (mdown, mleft2 + 50, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawString(MobileNumber, regularfont, XBrushes.Black, new XRect (mdown, mleft2 + 65, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+
+                    //Address
                 }
             }
         }
