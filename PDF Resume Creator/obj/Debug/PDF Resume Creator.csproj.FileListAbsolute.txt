@@ -1,0 +1,53 @@
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\PDF Resume Creator.exe.config
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\PDF Resume Creator.exe
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\PDF Resume Creator.pdb
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\Json.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\Json.Net.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\PdfSharp.Charting.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\PdfSharp.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Buffers.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Drawing.Common.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Memory.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Text.Json.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.ValueTuple.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\ZKWeb.System.Drawing.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\zxing.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\zxing.presentation.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\ZXing.ZKWeb.System.Drawing.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\Json.pdb
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\PdfSharp.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\PdfSharp.Charting.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Buffers.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Drawing.Common.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Memory.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Text.Json.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\System.ValueTuple.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\zxing.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\zxing.presentation.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\ZXing.ZKWeb.System.Drawing.pdb
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\ZXing.ZKWeb.System.Drawing.xml
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.AssemblyReference.cache
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.SuggestedBindingRedirects.cache
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF_Resume_Creator.Form1.resources
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF_Resume_Creator.Properties.Resources.resources
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.GenerateResource.cache
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.CoreCompileInputs.cache
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.CopyComplete
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.exe
+C:\Users\barbacena\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.pdb

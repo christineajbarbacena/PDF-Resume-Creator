@@ -90,17 +90,14 @@ namespace PDF_Resume_Creator
                     xGraphics.DrawRectangle(xPen, 0, 0, pdfpage.Width.Point, pdfpage.Height.Point);
 
                     //Margins
-                    int mleft = 50;
-                    int mdown = 200;
+                    int mleft1 = 25;
+                    int mleft2 = 200;
+                    int mdown = 430;
 
                     //Picture
-                    string pic = (@"C: \Users\barbacena\Desktop\Programming\SHS Graduation Picture.png");
-
-
-
-
-
-
+                    string pic = (@"C:\Users\barbacena\Desktop\Programming\Ai.png");
+                    XImage xImage = XImage.FromFile(pic);
+                    xGraphics.DrawImage(xImage, mleft2, 50, 150, 150);
 
 
                 }
