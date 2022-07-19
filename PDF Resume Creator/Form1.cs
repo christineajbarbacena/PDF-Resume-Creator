@@ -53,6 +53,8 @@ namespace PDF_Resume_Creator
             //Converting Awards
             string Awards1 = inforesume.Awards1;
             string Awards2 = inforesume.Awards2;
+
+
         }
     }
 }
