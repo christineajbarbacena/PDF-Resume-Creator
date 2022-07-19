@@ -34,13 +34,14 @@
             // 
             // bttncnvrt
             // 
+            this.bttncnvrt.BackColor = System.Drawing.Color.GreenYellow;
             this.bttncnvrt.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttncnvrt.Location = new System.Drawing.Point(12, 266);
+            this.bttncnvrt.Location = new System.Drawing.Point(29, 204);
             this.bttncnvrt.Name = "bttncnvrt";
-            this.bttncnvrt.Size = new System.Drawing.Size(158, 34);
+            this.bttncnvrt.Size = new System.Drawing.Size(295, 51);
             this.bttncnvrt.TabIndex = 0;
             this.bttncnvrt.Text = "Convert";
-            this.bttncnvrt.UseVisualStyleBackColor = true;
+            this.bttncnvrt.UseVisualStyleBackColor = false;
             this.bttncnvrt.Click += new System.EventHandler(this.bttncnvrt_Click);
             // 
             // Form1
@@ -49,9 +50,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(532, 312);
+            this.ClientSize = new System.Drawing.Size(374, 284);
             this.Controls.Add(this.bttncnvrt);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "PDFResume";
             this.ResumeLayout(false);
 
