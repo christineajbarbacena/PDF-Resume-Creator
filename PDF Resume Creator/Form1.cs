@@ -4,6 +4,11 @@ using System.IO;
 using Newtonsoft.Json;
 using Json.Net;
 using System.Text.Json;
+using PdfSharp;
+using PdfSharp.Drawing;
+using PdfSharp.Pdf;
+using System.Text;
+
 
 namespace PDF_Resume_Creator
 {
@@ -54,7 +59,18 @@ namespace PDF_Resume_Creator
             string Awards1 = inforesume.Awards1;
             string Awards2 = inforesume.Awards2;
 
+            //saving file
 
+            using (SaveFileDialog savefile = new SaveFileDialog())
+            {
+                savefile.InitialDirectory = (@"C:\Users\barbacena\Desktop\Programming\Resume Creator");
+                savefile.FileName = LastName + ".pdf";
+                if (savefile.ShowDialog() == DialogResult.OK)
+                {
+                    PdfDocument pdf = new PdfDocument();
+                    PdfPage pdfpage = pdf.AddPage();
+                }
+            }
         }
     }
 }
