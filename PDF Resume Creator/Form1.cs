@@ -65,10 +65,19 @@ namespace PDF_Resume_Creator
             {
                 savefile.InitialDirectory = (@"C:\Users\barbacena\Desktop\Programming\Resume Creator");
                 savefile.FileName = LastName + ".pdf";
+                savefile.Filter = "PDF|*.pdf";
+
                 if (savefile.ShowDialog() == DialogResult.OK)
                 {
                     PdfDocument pdf = new PdfDocument();
                     PdfPage pdfpage = pdf.AddPage();
+
+                    XGraphics xGraphics = XGraphics.FromPdfPage(pdfpage);
+
+                    XFont Afont = new XFont("Opens Sans Light", 20, XFontStyle.Bold);
+                    XFont Bfont = new XFont ("Arial", 14, XFontStyle.Regular);
+                    XFont Cfont = new XFont ("")
+
                 }
             }
         }
