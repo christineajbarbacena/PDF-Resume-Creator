@@ -38,7 +38,6 @@ namespace PDF_Resume_Creator
             string Region = inforesume.Region;
 
             //Converting Skills and Objectives
-            string Objective = inforesume.Objective;
             string Skill1 = inforesume.Skill1;
             string Skill2 = inforesume.Skill2;
             string Skill3 = inforesume.Skill3;
@@ -103,30 +102,30 @@ namespace PDF_Resume_Creator
                     //Picture
                     string pic = (@"C:\Users\barbacena\Desktop\Programming\Ai.png");
                     XImage xImage = XImage.FromFile(pic);
-                    xGraphics.DrawImage(xImage, left + 0, 45, 110, 130);
+                    xGraphics.DrawImage(xImage, left, 50, 150, 1);
 
                     //Name
-                    xGraphics.DrawString(FirstName + " " + MiddleName + "" + LastName, namefont, XBrushes.Black, new XRect(left, down -100, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawString(LastName, namefont, XBrushes.Black, new XRect(left, down -100, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawString(FirstName, namefont, XBrushes.Black, new XRect(left, down - 70, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
 
                     //Basic Information
                     xGraphics.DrawString("Basic Information", Bfont, XBrushes.Black, new XRect(left, down - 15, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
-                    xGraphics.DrawRectangle(line, left, down  + 10, 110, 130);
+                    xGraphics.DrawRectangle(line, left, down  + 10, 150, 1);
                     xGraphics.DrawString(EmailAddress, regularfont, XBrushes.Black, new XRect (left, down + 25, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
                     xGraphics.DrawString(MobileNumber, regularfont, XBrushes.Black, new XRect (left, down + 40, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
                     xGraphics.DrawString(StreetName + " " + City, regularfont, XBrushes.Black, new XRect (left, down  + 55, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
                     xGraphics.DrawString(Province + " " + Region, regularfont, XBrushes.Black, new XRect (left, down + 70, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
 
-                    //Skills and Objectives
-                    xGraphics.DrawString("Objectives And Skills: ",Bfont, XBrushes.Black, new XRect (left, down +125, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    //Skills
+                    xGraphics.DrawString("Skills",Bfont, XBrushes.Black, new XRect (left, down +125, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
                     xGraphics.DrawRectangle(line, left, down + 155, 110, 130);
-                    xGraphics.DrawString(Objective, regularfont, XBrushes.Black, new XRect (left, down + 160, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
                     xGraphics.DrawString(Skill1, regularfont, XBrushes.Black, new XRect(left, down + 175, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
                     xGraphics.DrawString(Skill2, regularfont, XBrushes.Black, new XRect(left, down + 190, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
                     xGraphics.DrawString(Skill3, regularfont, XBrushes.Black, new XRect(left, down + 205, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
                     xGraphics.DrawString(Skill4, regularfont, XBrushes.Black, new XRect(left, down + 220, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
 
                     //Work Experience
-                    xGraphics.DrawString("Work Experience: ", Bfont, XBrushes.Black, new XRect(left, down + 250, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawString("Work Experience ", Bfont, XBrushes.Black, new XRect(left, down + 250, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
                     xGraphics.DrawRectangle(line, left, down + 265, 110, 130);
                     xGraphics.DrawString(WorkExperience, regularfont, XBrushes.Black, new XRect(left, down + 270, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
                     xGraphics.DrawString(WEAddress, regularfont, XBrushes.Black, new XRect(left, down + 285, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
