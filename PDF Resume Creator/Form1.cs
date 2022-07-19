@@ -117,13 +117,30 @@ namespace PDF_Resume_Creator
                     xGraphics.DrawString(Province + " " + Region, regularfont, XBrushes.Black, new XRect (mdown, mleft2 + 95, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
 
                     //Skills and Objectives
-                    xGraphics.DrawString("Objectives And Skills: ",Bfont, XBrushes.Black, new XRect (mdown, mleft2 +145, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
-                    xGraphics.DrawRectangle(line, mdown, mleft2 + 165, 150, 1);
-                    xGraphics.DrawString(Objective, regularfont, XBrushes.Black, new XRect (mdown, mleft2 + 175, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
-                    xGraphics.DrawString(Skill1, regularfont, XBrushes.Black, new XRect(mdown, mleft2 + 190, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
-                    xGraphics.DrawString(Skill2, regularfont, XBrushes.Black, new XRect(mdown, mleft2 +205, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
-                    xGraphics.DrawString(Skill3, regularfont, XBrushes.Black, new XRect(mdown, mleft2 + 220, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
-                    xGraphics.DrawString(Skill4, regularfont, XBrushes.Black, new XRect(mdown, mleft2 + 235, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawString("Objectives And Skills: ",Bfont, XBrushes.Black, new XRect (mdown, mleft2 +125, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawRectangle(line, mdown, mleft2 + 145, 150, 1);
+                    xGraphics.DrawString(Objective, regularfont, XBrushes.Black, new XRect (mdown, mleft2 + 150, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawString(Skill1, regularfont, XBrushes.Black, new XRect(mdown, mleft2 + 165, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawString(Skill2, regularfont, XBrushes.Black, new XRect(mdown, mleft2 + 180, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawString(Skill3, regularfont, XBrushes.Black, new XRect(mdown, mleft2 + 195, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawString(Skill4, regularfont, XBrushes.Black, new XRect(mdown, mleft2 + 210, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+
+                    //Work Experience
+                    xGraphics.DrawString("Work Experience: ", Bfont, XBrushes.Black, new XRect(mdown, mleft2 + 240, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawRectangle(line, mdown, mleft2 + 255, 150, 1);
+                    xGraphics.DrawString(WorkExperience, regularfont, XBrushes.Black, new XRect(mdown, mleft2 + 260, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawString(WEAddress, regularfont, XBrushes.Black, new XRect(mdown, mleft2 + 275, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawString(Position, regularfont, XBrushes.Black, new XRect(mdown, mleft2 + 290, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawString(WorkYears, regularfont, XBrushes.Black, new XRect(mdown, mleft2 + 305, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+
+                    xGraphics.DrawString("Educational Background", Bfont, XBrushes.Black, new XRect(mdown, mleft2 + 335, pdfpage.Width.Point, pdfpage.Height.Point), XStringFormats.TopLeft);
+                    xGraphics.DrawRectangle(nline, mleft1, mleft2 + 25, 150, 1);
+
+
+
+                    pdf.Save(savefile.FileName);
+                    MessageBox.Show("Your resume is done.");
+                    Application.Exit();
 
                 }
             }
