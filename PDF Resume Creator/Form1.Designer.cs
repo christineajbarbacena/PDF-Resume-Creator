@@ -30,19 +30,42 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.bttncnvrt = new System.Windows.Forms.Button();
+            this.lblInstructions = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bttncnvrt
             // 
-            this.bttncnvrt.BackColor = System.Drawing.Color.GreenYellow;
+            this.bttncnvrt.BackColor = System.Drawing.Color.BurlyWood;
             this.bttncnvrt.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttncnvrt.Location = new System.Drawing.Point(29, 204);
+            this.bttncnvrt.Location = new System.Drawing.Point(127, 144);
             this.bttncnvrt.Name = "bttncnvrt";
-            this.bttncnvrt.Size = new System.Drawing.Size(295, 51);
+            this.bttncnvrt.Size = new System.Drawing.Size(188, 37);
             this.bttncnvrt.TabIndex = 0;
             this.bttncnvrt.Text = "Convert";
             this.bttncnvrt.UseVisualStyleBackColor = false;
             this.bttncnvrt.Click += new System.EventHandler(this.bttncnvrt_Click);
+            // 
+            // lblInstructions
+            // 
+            this.lblInstructions.AutoSize = true;
+            this.lblInstructions.BackColor = System.Drawing.Color.MistyRose;
+            this.lblInstructions.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstructions.Location = new System.Drawing.Point(45, 85);
+            this.lblInstructions.Name = "lblInstructions";
+            this.lblInstructions.Size = new System.Drawing.Size(249, 42);
+            this.lblInstructions.TabIndex = 1;
+            this.lblInstructions.Text = "Click convert button to convert \r\nJson file into pdf file. ";
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.lblName.Location = new System.Drawing.Point(12, 262);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(162, 13);
+            this.lblName.TabIndex = 2;
+            this.lblName.Text = "By: Christine April Joy Barbacena";
             // 
             // Form1
             // 
@@ -51,17 +74,22 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(374, 284);
+            this.Controls.Add(this.lblName);
+            this.Controls.Add(this.lblInstructions);
             this.Controls.Add(this.bttncnvrt);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "PDFResume";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button bttncnvrt;
+        private System.Windows.Forms.Label lblInstructions;
+        private System.Windows.Forms.Label lblName;
     }
 }
 
